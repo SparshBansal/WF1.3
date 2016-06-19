@@ -46,10 +46,10 @@ public class ViewPagerAdapter extends FragmentStatePagerAdapter {
             R.drawable.second_tab_drawable,
             R.drawable.first_tab_drawable
     };
-   // Context context = this;
+    // Context context = this;
 
     // Build a Constructor and assign the passed Values to appropriate values in the class
-    public ViewPagerAdapter(FragmentManager fm,CharSequence mTitles[], int mNumbOfTabsumb) {
+    public ViewPagerAdapter(FragmentManager fm, CharSequence mTitles[], int mNumbOfTabsumb) {
         super(fm);
 
         this.Titles = mTitles;
@@ -60,71 +60,28 @@ public class ViewPagerAdapter extends FragmentStatePagerAdapter {
     //This method return the fragment for the every position in the View Pager
     @Override
     public Fragment getItem(int position) {
-        if(position==0)
-        {
-            home h1= new home();
+        if (position == 0) {
+            home h1 = new home();
             return h1;
-        }
-       else
-        if(position == 1) // if the position is 0 we are returning the First tab
+        } else if (position == 1) // if the position is 0 we are returning the First tab
         {
             tab1 t1 = new tab1();
             return t1;
-        }
-        else
-        if(position== 2)// As we are having 2 tabs if the position is now 0 it must be 1 so we are returning second tab
+        } else if (position == 2)// As we are having 2 tabs if the position is now 0 it must be 1 so we are returning second tab
         {
             tab2 t2 = new tab2();
             return t2;
-        }
-        else
-        {
-
+        } else {
             tab3 t3 = new tab3();
             return t3;
         }
-
-
-
     }
-
     // This method return the titles for the Tabs in the Tab Strip
 
     @Override
     public CharSequence getPageTitle(int position) {
-        return Titles[position];
+        return null;
     }
-//@Override
- /* public CharSequence getPageTitle(int position) {
-//       Drawable image = ContextCompat.getDrawable(context,imageResId[position]);
- //Context context = this;
-       Drawable image = getResources().getDrawable(this.getcontext(),imageResId[position]);
-
-       //ContextCompat.getDrawable(android.content.Context, imageResId[position]);
-               //ResourcesCompat.getDrawable(getResources(), imageResId[position], null);
-               //getResources().getDrawable(imageResId[position]);
-       image.setBounds(0, 0, image.getIntrinsicWidth(), image.getIntrinsicHeight());
-       SpannableString sb = new SpannableString(" ");
-       ImageSpan imageSpan = new ImageSpan(image, ImageSpan.ALIGN_BOTTOM);
-       sb.setSpan(imageSpan, 0, 1, Spannable.SPAN_EXCLUSIVE_EXCLUSIVE);
-       return sb;
-   }*/
-  /* @Override
-   public CharSequence getPageTitle(int position)
-   {
-       //Drawable image =  getResources().getDrawable(imageResId[position],0);
-               //ResourcesCompat.getDrawable(getResources(), R.drawable.name, null);
-
-
-      // ContextCompat.getDrawable(getApplicationContext(), R.drawable.icon);
-       image.setBounds(0, 0, image.getIntrinsicWidth(), image.getIntrinsicHeight());
-       SpannableString sb = new SpannableString(" ");
-       ImageSpan imageSpan = new ImageSpan(image, ImageSpan.ALIGN_BOTTOM);
-       sb.setSpan(imageSpan, 0, 1, Spannable.SPAN_EXCLUSIVE_EXCLUSIVE);
-       return sb;
-
-   }*/
-    // This method return the Number of tabs for the tabs Strip
 
     @Override
     public int getCount() {
@@ -134,7 +91,8 @@ public class ViewPagerAdapter extends FragmentStatePagerAdapter {
     public ContextCompat getResources() {
         return resources;
     }
-    public int getDrawableId(int position){
+
+    public int getDrawableId(int position) {
         //Here is only example for getting tab drawables
         return drawablesIds[position];
     }

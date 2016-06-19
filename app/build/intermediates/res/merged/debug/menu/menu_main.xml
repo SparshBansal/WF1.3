@@ -7,9 +7,7 @@
         android:orderInCategory="300"
         android:title="settings"
         android:icon="@drawable/ic_settings_green"
-
         android:gravity="center"
-
         app:showAsAction="always"/>
     <item
         android:id="@+id/action_search"

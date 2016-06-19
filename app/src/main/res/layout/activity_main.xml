@@ -1,4 +1,5 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
@@ -6,35 +7,32 @@
     tools:context=".MainActivity">
 
 
-    <include
-        android:id="@+id/tool_bar"
-        layout="@layout/tool_bar1"
+    <android.support.design.widget.AppBarLayout
         android:layout_width="match_parent"
-        android:layout_height="48dp"
-        android:layout_alignParentTop="true" />
+        android:layout_height="wrap_content"
+        android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar">
 
+        <android.support.v7.widget.Toolbar
+            android:id="@+id/tool_bar"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            android:background="@color/ColorPrimary"
+            app:layout_scrollFlags="scroll|enterAlways"
+            app:popupTheme="@style/ThemeOverlay.AppCompat.Light" />
 
-    <!---->
-    <com.example.android.wf13.SlidingTabLayout
-        android:id="@+id/tabs"
-        android:layout_width="match_parent"
-        android:layout_height="48dp"
-        android:background="@color/ColorPrimary"
-        android:elevation="2dp">
-
-    </com.example.android.wf13.SlidingTabLayout>
+        <android.support.design.widget.TabLayout
+            android:id="@+id/tabs"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:tabGravity="fill"
+            app:tabMode="fixed" />
+    </android.support.design.widget.AppBarLayout>
 
     <android.support.v4.view.ViewPager
         android:id="@+id/pager"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:layout_weight="1" />
-
-    <android.support.v7.widget.Toolbar
-        android:id="@+id/toolbar"
-        android:layout_width="match_parent"
-        android:layout_height="1dp"
-        android:background="#9E9E9E" />
 
 
     <LinearLayout
@@ -47,7 +45,7 @@
         <Space
             android:layout_width="0dp"
             android:layout_height="1dp"
-            android:layout_weight="1"></Space>
+            android:layout_weight="1"/>
 
         <ImageButton
             android:id="@+id/btnOne"
@@ -55,15 +53,12 @@
             android:layout_height="wrap_content"
             android:layout_gravity="center"
             android:background="@drawable/ic_bioconnect_green"
-            android:onClick="buttonOnClick1"
-
-
-            />
+            android:onClick="buttonOnClick1" />
 
         <Space
             android:layout_width="0dp"
             android:layout_height="1dp"
-            android:layout_weight="1"></Space>
+            android:layout_weight="1"/>
 
         <ImageButton
             android:id="@+id/btntwo"
@@ -78,7 +73,7 @@
         <Space
             android:layout_width="0dp"
             android:layout_height="1dp"
-            android:layout_weight="1"></Space>
+            android:layout_weight="1"/>
 
         <ImageButton
             android:id="@+id/btnthree"
@@ -93,7 +88,7 @@
         <Space
             android:layout_width="0dp"
             android:layout_height="1dp"
-            android:layout_weight="1"></Space>
+            android:layout_weight="1"/>
 
         <ImageButton
             android:id="@+id/btnfour"
@@ -108,7 +103,7 @@
         <Space
             android:layout_width="0dp"
             android:layout_height="1dp"
-            android:layout_weight="1"></Space>
+            android:layout_weight="1"/>
 
         <ImageButton
             android:id="@+id/btnfive"
@@ -123,7 +118,7 @@
         <Space
             android:layout_width="0dp"
             android:layout_height="1dp"
-            android:layout_weight="1"></Space>
+            android:layout_weight="1"/>
     </LinearLayout>
 
 
