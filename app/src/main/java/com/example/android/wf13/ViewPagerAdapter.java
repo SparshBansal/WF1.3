@@ -4,6 +4,7 @@ import android.support.v4.app.Fragment;
 import android.support.v4.app.FragmentManager;
 import android.support.v4.app.FragmentStatePagerAdapter;
 import android.support.v4.content.ContextCompat;
+import android.content.Context;
 
 /**
  * Created by sonal on 08-06-2016.
@@ -35,6 +36,17 @@ public class ViewPagerAdapter extends FragmentStatePagerAdapter {
     int NumbOfTabs; // Store the number of tabs, this will also be passed when the ViewPagerAdapter is created
 
     private ContextCompat resources;
+    int[] imageResId = {
+            R.drawable.mybio,
+            R.drawable.biopic,
+            R.drawable.peoplefollowed
+    };
+    private int[] drawablesIds = {
+            R.drawable.first_tab_drawable,
+            R.drawable.second_tab_drawable,
+            R.drawable.first_tab_drawable
+    };
+   // Context context = this;
 
     // Build a Constructor and assign the passed Values to appropriate values in the class
     public ViewPagerAdapter(FragmentManager fm,CharSequence mTitles[], int mNumbOfTabsumb) {
@@ -48,20 +60,26 @@ public class ViewPagerAdapter extends FragmentStatePagerAdapter {
     //This method return the fragment for the every position in the View Pager
     @Override
     public Fragment getItem(int position) {
-
-        if(position == 0) // if the position is 0 we are returning the First tab
+        if(position==0)
+        {
+            home h1= new home();
+            return h1;
+        }
+       else
+        if(position == 1) // if the position is 0 we are returning the First tab
         {
             tab1 t1 = new tab1();
             return t1;
         }
         else
-        if(position== 1)// As we are having 2 tabs if the position is now 0 it must be 1 so we are returning second tab
+        if(position== 2)// As we are having 2 tabs if the position is now 0 it must be 1 so we are returning second tab
         {
             tab2 t2 = new tab2();
             return t2;
         }
         else
         {
+
             tab3 t3 = new tab3();
             return t3;
         }
@@ -76,6 +94,21 @@ public class ViewPagerAdapter extends FragmentStatePagerAdapter {
     public CharSequence getPageTitle(int position) {
         return Titles[position];
     }
+//@Override
+ /* public CharSequence getPageTitle(int position) {
+//       Drawable image = ContextCompat.getDrawable(context,imageResId[position]);
+ //Context context = this;
+       Drawable image = getResources().getDrawable(this.getcontext(),imageResId[position]);
+
+       //ContextCompat.getDrawable(android.content.Context, imageResId[position]);
+               //ResourcesCompat.getDrawable(getResources(), imageResId[position], null);
+               //getResources().getDrawable(imageResId[position]);
+       image.setBounds(0, 0, image.getIntrinsicWidth(), image.getIntrinsicHeight());
+       SpannableString sb = new SpannableString(" ");
+       ImageSpan imageSpan = new ImageSpan(image, ImageSpan.ALIGN_BOTTOM);
+       sb.setSpan(imageSpan, 0, 1, Spannable.SPAN_EXCLUSIVE_EXCLUSIVE);
+       return sb;
+   }*/
   /* @Override
    public CharSequence getPageTitle(int position)
    {
@@ -100,5 +133,9 @@ public class ViewPagerAdapter extends FragmentStatePagerAdapter {
 
     public ContextCompat getResources() {
         return resources;
+    }
+    public int getDrawableId(int position){
+        //Here is only example for getting tab drawables
+        return drawablesIds[position];
     }
 }

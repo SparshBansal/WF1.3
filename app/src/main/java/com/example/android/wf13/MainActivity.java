@@ -1,21 +1,19 @@
 package com.example.android.wf13;
 
+import android.content.Intent;
 import android.net.Uri;
 import android.os.Bundle;
+import android.support.design.widget.TabLayout;
 import android.support.v4.view.ViewPager;
 import android.support.v7.app.ActionBarActivity;
-import android.support.v7.view.menu.ActionMenuItemView;
 import android.support.v7.widget.Toolbar;
-import android.util.DisplayMetrics;
-import android.view.Display;
 import android.view.Menu;
-import android.view.MenuItem;
 import android.view.View;
-import android.view.ViewGroup;
 import android.view.Window;
-import android.widget.ActionMenuView;
-import android.widget.GridLayout;
-import android.widget.GridLayout.LayoutParams;
+
+import com.google.android.gms.appindexing.Action;
+import com.google.android.gms.appindexing.AppIndex;
+import com.google.android.gms.common.api.GoogleApiClient;
 //import android.view.ViewGroup.LayoutParams;
 
 //import com.google.android.gms.appindexing.Action;
@@ -31,12 +29,19 @@ public class MainActivity extends ActionBarActivity {
 
     Toolbar toolbar;
     Toolbar toolbar1;
+    int i;
 
     ViewPager pager;
     ViewPagerAdapter adapter;
     SlidingTabLayout tabs;
-    CharSequence Titles[] = {"LEARN", "BIOshop", "DIFM"};
-    int Numboftabs = 3;
+    CharSequence Titles[] = {"HOME", "LEARN", "BIOshop", "DIFM"};
+    int Numboftabs = 4;
+    String message = "1";
+    /**
+     * ATTENTION: This was auto-generated to implement the App Indexing API.
+     * See https://g.co/AppIndexing/AndroidStudio for more information.
+     */
+    private GoogleApiClient client;
 
     /**
      * ATTENTION: This was auto-generated to implement the App Indexing API.
@@ -53,14 +58,27 @@ public class MainActivity extends ActionBarActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         requestWindowFeature(Window.FEATURE_NO_TITLE);
-
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+        //  Bundle bundle = getIntent().getExtras();
+
+        //Intent intent = this.getIntent();
+        //f (intent != null) {
+        //    message = intent.getStringExtra("message");
+        //}
+        // message = bundle.getString("message");
+        //try {
+          //  i = Integer.parseInt(message);
+            //pager.setCurrentItem(i);
+        //} catch (Exception e) {
+
+        //}
+
 
         // Creating The Toolbar and setting it as the Toolbar for the activity
 
         toolbar = (Toolbar) findViewById(R.id.tool_bar);
-      //  toolbar1 = (Toolbar) findViewById(R.id.lower_tool_bar);
+        //  toolbar1 = (Toolbar) findViewById(R.id.lower_tool_bar);
         // toolbar2 = (Toolbar) findViewById(R.id.lower_tool_bar2);
         // toolbar3 = (Toolbar) findViewById(R.id.lower_tool_bar3);
         //toolbar4 = (Toolbar) findViewById(R.id.lower_tool_bar4);
@@ -69,7 +87,7 @@ public class MainActivity extends ActionBarActivity {
         //toolbar1 = (Toolbar) findViewById(R.id.lower_tool_bar1);
 
 
-       // toolbar1.inflateMenu(R.menu.lower_menu_main);
+        // toolbar1.inflateMenu(R.menu.lower_menu_main);
         // toolbar1.setContentInsetsAbsolute(10, 10);
 
         //toolbar.setContentInsetsAbsolute(10, 10);
@@ -79,7 +97,7 @@ public class MainActivity extends ActionBarActivity {
         setSupportActionBar(toolbar);
         getSupportActionBar().setDisplayShowHomeEnabled(true);
         getSupportActionBar().setIcon(R.drawable.logo);
-       // tabTitleView.setTextColor(getResources().getColorStateList(R.color.selector));
+        // tabTitleView.setTextColor(getResources().getColorStateList(R.color.selector));
 
         //getActionBar().setIcon(R.drawable.logo);
 
@@ -92,8 +110,11 @@ public class MainActivity extends ActionBarActivity {
         pager.setAdapter(adapter);
 
         // Assiging the Sliding Tab Layout View
+
+
         tabs = (SlidingTabLayout) findViewById(R.id.tabs);
-        tabs.setDistributeEvenly(true); // To make the Tabs Fixed set this true, This makes the tabs Space Evenly in Available width
+        tabs.setDistributeEvenly(true);
+// To make the Tabs Fixed set this true, This makes the tabs Space Evenly in Available width
 
         // Setting Custom Color for the Scroll bar indicator of the Tab View
         tabs.setCustomTabColorizer(new SlidingTabLayout.TabColorizer() {
@@ -101,13 +122,17 @@ public class MainActivity extends ActionBarActivity {
             public int getIndicatorColor(int position) {
                 return getResources().getColor(R.color.tabsScrollColor);
 
+                //SlidingTabLayout slidingTabLayout = (SlidingTabLayout) view.findViewById(R.id.tabs);
+                //slidingTabLayout.setCustomTabView(R.layout.custom_tab, 0);
+                //slidingTabLayout.setViewPager(pager);
+
                 //SlidingTabLayout slidingTabLayout = (SlidingTabLayout) findViewById(R.id.tabs);
 
             }
         });
-        // tabs.setCustomTabView(R.layout.custom_tab, 0);
-        tabs.setViewPager(pager);
 
+        tabs.setCustomTabView(R.layout.tabs_layout, 0);
+        tabs.setViewPager(pager);
 
        /* if (toolbar1 != null) {
             EnhancedMenuInflater.inflate(getMenuInflater(), toolbar.getMenu(), true);
@@ -118,23 +143,37 @@ public class MainActivity extends ActionBarActivity {
                 }
             });
         }*/
+        // ATTENTION: This was auto-generated to implement the App Indexing API.
+        // See https://g.co/AppIndexing/AndroidStudio for more information.
+        client = new GoogleApiClient.Builder(this).addApi(AppIndex.API).build();
+    }
+    @Override
+    protected void onActivityResult(int requestCode,int resultCode, Intent intent){
+        if (requestCode == 1) {
+            if (resultCode == RESULT_OK) {
+                String message = intent.getStringExtra("message");
+                pager.setCurrentItem(Integer.parseInt(message));
+
+            }
+        }
     }
 
 
-            // Setting the ViewPager For the SlidingTabsLayout
+
+    // Setting the ViewPager For the SlidingTabsLayout
 //
 
-            // ATTENTION: This was auto-generated to implement the App Indexing API.
-            // See https://g.co/AppIndexing/AndroidStudio for more information.
-            //client = new GoogleApiClient.Builder(this).addApi(AppIndex.API).build();
-
+    // ATTENTION: This was auto-generated to implement the App Indexing API.
+    // See https://g.co/AppIndexing/AndroidStudio for more information.
+    //client = new GoogleApiClient.Builder(this).addApi(AppIndex.API).build();
 
 
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
         // Inflate the menu; this adds items to the action bar if it is present.
         getMenuInflater().inflate(R.menu.menu_main, menu);
-        // getMenuInflater().inflate(R.menu.lower_menu_main, menu);
+
+        //getMenuInflater().inflate(R.menu.lower_menu_main, menu);
 
         return true;
     }
@@ -170,11 +209,11 @@ public class MainActivity extends ActionBarActivity {
 
 
 // somewhere after views have been set.    }
-            /**
-             * This method will take however many items you have in your
-             * menu/menu_main.xml and distribute them across your devices screen
-             * evenly using a Toolbar. Enjoy!!
-             */
+    /**
+     * This method will take however many items you have in your
+     * menu/menu_main.xml and distribute them across your devices screen
+     * evenly using a Toolbar. Enjoy!!
+     */
  /*   public void setupEvenlyDistributedToolbar() {
         // Use Display metrics to get Screen Dimensions
         Display display = getWindowManager().getDefaultDisplay();
@@ -262,11 +301,90 @@ public class MainActivity extends ActionBarActivity {
         client.disconnect();
     }*/
 
-            /**
-             * This method will take however many items you have in your
-             * menu/menu_main.xml and distribute them across your devices screen
-             * evenly using a Toolbar. Enjoy!!
-             */
-
-
+    /**
+     * This method will take however many items you have in your
+     * menu/menu_main.xml and distribute them across your devices screen
+     * evenly using a Toolbar. Enjoy!!
+     */
+    public void buttonOnClick1(View v) {
+        Intent intent = new Intent(this, PeopleFollowed.class);
+        startActivity(intent);
+        intent.addFlags(Intent.FLAG_ACTIVITY_NO_ANIMATION);
+        startActivityForResult(intent, 0);
+        overridePendingTransition(0, 0);
     }
+
+    public void buttonOnClick2(View v) {
+        Intent intent = new Intent(this, tokra.class);
+        startActivity(intent);
+        intent.addFlags(Intent.FLAG_ACTIVITY_NO_ANIMATION);
+        startActivityForResult(intent, 0);
+        overridePendingTransition(0, 0);
+    }
+
+    public void buttonOnClick3(View v) {
+        Intent intent = new Intent(this, Biopic.class);
+        startActivity(intent);
+        intent.addFlags(Intent.FLAG_ACTIVITY_NO_ANIMATION);
+        startActivityForResult(intent, 0);
+        overridePendingTransition(0, 0);
+    }
+
+    public void buttonOnClick4(View v) {
+        Intent intent = new Intent(this, Mybio.class);
+        startActivity(intent);
+        intent.addFlags(Intent.FLAG_ACTIVITY_NO_ANIMATION);
+        startActivityForResult(intent, 0);
+        overridePendingTransition(0, 0);
+    }
+
+    public void buttonOnClick5(View v) {
+        Intent intent = new Intent(this, Notification.class);
+        startActivity(intent);
+        intent.addFlags(Intent.FLAG_ACTIVITY_NO_ANIMATION);
+        startActivityForResult(intent, 0);
+        overridePendingTransition(0, 0);
+    }
+
+    @Override
+    public void onStart() {
+        super.onStart();
+
+        // ATTENTION: This was auto-generated to implement the App Indexing API.
+        // See https://g.co/AppIndexing/AndroidStudio for more information.
+        client.connect();
+        Action viewAction = Action.newAction(
+                Action.TYPE_VIEW, // TODO: choose an action type.
+                "Main Page", // TODO: Define a title for the content shown.
+                // TODO: If you have web page content that matches this app activity's content,
+                // make sure this auto-generated web page URL is correct.
+                // Otherwise, set the URL to null.
+                Uri.parse("http://host/path"),
+                // TODO: Make sure this auto-generated app deep link URI is correct.
+                Uri.parse("android-app://com.example.android.wf13/http/host/path")
+        );
+        AppIndex.AppIndexApi.start(client, viewAction);
+    }
+
+    @Override
+    public void onStop() {
+        super.onStop();
+
+        // ATTENTION: This was auto-generated to implement the App Indexing API.
+        // See https://g.co/AppIndexing/AndroidStudio for more information.
+        Action viewAction = Action.newAction(
+                Action.TYPE_VIEW, // TODO: choose an action type.
+                "Main Page", // TODO: Define a title for the content shown.
+                // TODO: If you have web page content that matches this app activity's content,
+                // make sure this auto-generated web page URL is correct.
+                // Otherwise, set the URL to null.
+                Uri.parse("http://host/path"),
+                // TODO: Make sure this auto-generated app deep link URI is correct.
+                Uri.parse("android-app://com.example.android.wf13/http/host/path")
+        );
+        AppIndex.AppIndexApi.end(client, viewAction);
+        client.disconnect();
+    }
+}
+
+

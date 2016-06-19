@@ -1,3 +1,89 @@
 <?xml version="1.0" encoding="utf-8"?>
-<items version="2" />
+<items version="2" >
 
+    <item
+        jar="D:\Codes and Projects\WF1.3\app\build\intermediates\exploded-aar\com.android.support\animated-vector-drawable\23.4.0\jars\classes.jar"
+        jumboMode="true"
+        revision="23.0.1"
+        sha1="de4db3785756bfb0915a9f59a9b3f2fea7407be4">
+        <dex dex="D:\Codes and Projects\WF1.3\app\build\intermediates\pre-dexed\debug\com.android.support-animated-vector-drawable-23.4.0_1c76f87a81a3bc402af2a4d6930480b2e852f33d.jar" />
+    </item>
+    <item
+        jar="D:\Codes and Projects\WF1.3\app\build\intermediates\exploded-aar\com.android.support\design\23.4.0\jars\classes.jar"
+        jumboMode="true"
+        revision="23.0.1"
+        sha1="5326d9a850d491714fef8cbfaa9ea3416f0bf0d2">
+        <dex dex="D:\Codes and Projects\WF1.3\app\build\intermediates\pre-dexed\debug\com.android.support-design-23.4.0_df29728a72470a11be52a519cc802a3dddbbcf4d.jar" />
+    </item>
+    <item
+        jar="D:\Codes and Projects\WF1.3\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\23.4.0\jars\classes.jar"
+        jumboMode="true"
+        revision="23.0.1"
+        sha1="548f06de403a9409f00554b3ee12a9fdea0e236c">
+        <dex dex="D:\Codes and Projects\WF1.3\app\build\intermediates\pre-dexed\debug\com.android.support-appcompat-v7-23.4.0_d336180b4c4e4a42bc2d5349b56e6e54975f553d.jar" />
+    </item>
+    <item
+        jar="D:\Codes and Projects\WF1.3\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-basement\8.1.0\jars\classes.jar"
+        jumboMode="true"
+        revision="23.0.1"
+        sha1="d0dda274b703dd9c5bb056867649d22b4171ae7d">
+        <dex dex="D:\Codes and Projects\WF1.3\app\build\intermediates\pre-dexed\debug\com.google.android.gms-play-services-basement-8.1.0_a9b7ccbd2cb0e0ffaf502a0cae6116b8b62eac4a.jar" />
+    </item>
+    <item
+        jar="D:\Codes and Projects\WF1.3\app\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
+        jumboMode="true"
+        revision="23.0.1"
+        sha1="9487c64db10b0fbc86a56c4ca155eb322955df1f">
+        <dex dex="D:\Codes and Projects\WF1.3\app\build\intermediates\pre-dexed\debug\instant-run_77cd0720a45cb0fc09b304a5817fbfc25656105d.jar" />
+    </item>
+    <item
+        jar="D:\Codes and Projects\WF1.3\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-appindexing\8.1.0\jars\classes.jar"
+        jumboMode="true"
+        revision="23.0.1"
+        sha1="4477ea44f5ec5ad064022a22691732d7638ff197">
+        <dex dex="D:\Codes and Projects\WF1.3\app\build\intermediates\pre-dexed\debug\com.google.android.gms-play-services-appindexing-8.1.0_e4a9b33010e50a4047f1485a47e0a8050269c3dc.jar" />
+    </item>
+    <item
+        jar="D:\Codes and Projects\WF1.3\app\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
+        jumboMode="true"
+        revision="23.0.1"
+        sha1="bfbf9aaa256a19137b644cb5d16b27e2b9a2c5d2">
+        <dex dex="D:\Codes and Projects\WF1.3\app\build\intermediates\pre-dexed\debug\instant-run-bootstrap_899c85535010eb9dc424701a65675c96f22cfc5a.jar" />
+    </item>
+    <item
+        jar="D:\Codes and Projects\WF1.3\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.4.0\jars\classes.jar"
+        jumboMode="true"
+        revision="23.0.1"
+        sha1="67bd36ee9340ec7c254108936ad16b24bed160cc">
+        <dex dex="D:\Codes and Projects\WF1.3\app\build\intermediates\pre-dexed\debug\com.android.support-support-v4-23.4.0_cdd7757a401acff30539f31ed694b5df9aac252b.jar" />
+    </item>
+    <item
+        jar="D:\Codes and Projects\WF1.3\app\build\intermediates\exploded-aar\com.android.support\recyclerview-v7\23.4.0\jars\classes.jar"
+        jumboMode="true"
+        revision="23.0.1"
+        sha1="ec75036c3c52e451d0cde50a5aedaf5fd32354a0">
+        <dex dex="D:\Codes and Projects\WF1.3\app\build\intermediates\pre-dexed\debug\com.android.support-recyclerview-v7-23.4.0_c34192b077a03ca9491398d99500914c38e3bea8.jar" />
+    </item>
+    <item
+        jar="D:\Codes and Projects\WF1.3\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.4.0\jars\libs\internal_impl-23.4.0.jar"
+        jumboMode="true"
+        revision="23.0.1"
+        sha1="ea3c07504d2c8f4b13aa17c45c1b68ed9c1c3674">
+        <dex dex="D:\Codes and Projects\WF1.3\app\build\intermediates\pre-dexed\debug\internal_impl-23.4.0_b6282dce9a6ba244501648978f72a186f76842cf.jar" />
+    </item>
+    <item
+        jar="D:\Codes and Projects\WF1.3\app\build\intermediates\exploded-aar\com.android.support\support-vector-drawable\23.4.0\jars\classes.jar"
+        jumboMode="true"
+        revision="23.0.1"
+        sha1="c2c594cace5d83a3227b2b6e658ecbfd586d3ed9">
+        <dex dex="D:\Codes and Projects\WF1.3\app\build\intermediates\pre-dexed\debug\com.android.support-support-vector-drawable-23.4.0_311858f6bdca0f03a9504f16a9ef9ae4b393205e.jar" />
+    </item>
+    <item
+        jar="C:\Android\sdk\extras\android\m2repository\com\android\support\support-annotations\23.4.0\support-annotations-23.4.0.jar"
+        jumboMode="true"
+        revision="23.0.1"
+        sha1="ffbe55fdb2bb456b1485831706a9eac3300bb6b8">
+        <dex dex="D:\Codes and Projects\WF1.3\app\build\intermediates\pre-dexed\debug\support-annotations-23.4.0_fc18a0fdc80391aaf9a93e629f1a6f03cf6a9cf4.jar" />
+    </item>
+
+</items>

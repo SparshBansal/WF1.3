@@ -1,0 +1,134 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:tools="http://schemas.android.com/tools"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:orientation="vertical"
+              tools:context=".MainActivity">
+
+
+    <include
+        android:id="@+id/tool_bar"
+        layout="@layout/tool_bar1"
+        android:layout_height="48dp"
+        android:layout_width="match_parent"
+        android:layout_alignParentTop="true"
+        />
+
+
+
+    <!---->
+    <com.example.android.wf13.SlidingTabLayout
+        android:id="@+id/tabs"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:elevation="2dp"
+        android:background="@color/ColorPrimary">
+
+        </com.example.android.wf13.SlidingTabLayout>
+
+    <android.support.v4.view.ViewPager
+        android:id="@+id/pager"
+
+        android:layout_height="match_parent"
+        android:layout_width="match_parent"
+        android:layout_weight="1"
+        />
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+
+      android:background="#9E9E9E"/>
+
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:orientation="horizontal"
+        android:layout_alignParentBottom="true"
+        android:background="@color/ColorPrimary">
+        <Space
+            android:layout_width="0dp"
+            android:layout_height="1dp"
+            android:layout_weight="1" >
+        </Space>
+
+        <ImageButton
+            android:id="@+id/btnOne"
+            android:onClick="buttonOnClick1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/ic_bioconnect_green"
+            android:layout_gravity="center"
+
+
+            />
+        <Space
+            android:layout_width="0dp"
+            android:layout_height="1dp"
+            android:layout_weight="1" >
+        </Space>
+        <ImageButton
+            android:id="@+id/btntwo"
+            android:onClick="buttonOnClick2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/ic_ideabasket_green"
+            android:layout_gravity="center"
+
+            />
+        <Space
+            android:layout_width="0dp"
+            android:layout_height="1dp"
+            android:layout_weight="1" >
+        </Space>
+        <ImageButton
+            android:id="@+id/btnthree"
+            android:onClick="buttonOnClick3"
+            android:layout_gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/ic_biopic_green"
+
+            />
+        <Space
+            android:layout_width="0dp"
+            android:layout_height="1dp"
+            android:layout_weight="1" >
+        </Space>
+        <ImageButton
+            android:id="@+id/btnfour"
+            android:onClick="buttonOnClick4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/ic_mybio_green"
+            android:layout_gravity="center"
+
+            />
+        <Space
+            android:layout_width="0dp"
+            android:layout_height="1dp"
+            android:layout_weight="1" >
+        </Space>
+        <ImageButton
+            android:id="@+id/btnfive"
+            android:onClick="buttonOnClick5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/ic_notificationsoff_green"
+            android:layout_gravity="center"
+
+            />
+        <Space
+            android:layout_width="0dp"
+            android:layout_height="1dp"
+            android:layout_weight="1" >
+        </Space>
+        </LinearLayout>
+
+
+
+</LinearLayout>
