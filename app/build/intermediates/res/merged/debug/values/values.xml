@@ -36,6 +36,7 @@
     <color name="color_tab2">#00BCD4</color>
     <color name="color_tab3">#FF9800</color>
     <color name="color_tab4">#8BC34A</color>
+    <color name="color_tab_selected">#FF9800</color>
     <color name="common_action_bar_splitter">#d2d2d2</color>
     <color name="common_signin_btn_dark_text_default">@android:color/white</color>
     <color name="common_signin_btn_dark_text_disabled">#FFAAAAAA</color>

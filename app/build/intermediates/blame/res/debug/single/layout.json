@@ -40,6 +40,10 @@
         "source": "/home/sparsh/AndroidStudioProjects/WF1.3/app/src/main/res/layout/content_main.xml"
     },
     {
+        "merged": "/home/sparsh/AndroidStudioProjects/WF1.3/app/build/intermediates/res/merged/debug/layout/custom_tab.xml",
+        "source": "/home/sparsh/AndroidStudioProjects/WF1.3/app/src/main/res/layout/custom_tab.xml"
+    },
+    {
         "merged": "/home/sparsh/AndroidStudioProjects/WF1.3/app/build/intermediates/res/merged/debug/layout/tool_bar1.xml",
         "source": "/home/sparsh/AndroidStudioProjects/WF1.3/app/src/main/res/layout/tool_bar1.xml"
     },
@@ -72,12 +76,12 @@
         "source": "/home/sparsh/AndroidStudioProjects/WF1.3/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.4.0/res/layout/abc_list_menu_item_layout.xml"
     },
     {
-        "merged": "/home/sparsh/AndroidStudioProjects/WF1.3/app/build/intermediates/res/merged/debug/layout/notification_media_cancel_action.xml",
-        "source": "/home/sparsh/AndroidStudioProjects/WF1.3/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.4.0/res/layout/notification_media_cancel_action.xml"
-    },
-    {
         "merged": "/home/sparsh/AndroidStudioProjects/WF1.3/app/build/intermediates/res/merged/debug/layout/abc_action_menu_item_layout.xml",
         "source": "/home/sparsh/AndroidStudioProjects/WF1.3/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.4.0/res/layout/abc_action_menu_item_layout.xml"
+    },
+    {
+        "merged": "/home/sparsh/AndroidStudioProjects/WF1.3/app/build/intermediates/res/merged/debug/layout/notification_media_cancel_action.xml",
+        "source": "/home/sparsh/AndroidStudioProjects/WF1.3/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.4.0/res/layout/notification_media_cancel_action.xml"
     },
     {
         "merged": "/home/sparsh/AndroidStudioProjects/WF1.3/app/build/intermediates/res/merged/debug/layout/abc_dialog_title_material.xml",

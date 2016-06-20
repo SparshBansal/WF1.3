@@ -34,6 +34,12 @@ public class MainActivity extends ActionBarActivity {
             R.drawable.ic_bioshop_green,
             R.drawable.ic_bioconnect_green
     };
+    private int[] tabSelectedIconsRes = new int[]{
+            R.drawable.ic_home_orange,
+            R.drawable.ic_learn_orange,
+            R.drawable.ic_bioshop_orange,
+            R.drawable.ic_bioconnect_orange
+    };
     private int Numboftabs = 4;
     private String message = "1";
     /**
@@ -74,16 +80,36 @@ public class MainActivity extends ActionBarActivity {
         // Assigning ViewPager View and setting the adapter
         pager.setAdapter(adapter);
         mTabLayout.setupWithViewPager(pager);
-        setupTabIcons();
+        setupTabs();
         client = new GoogleApiClient.Builder(this).addApi(AppIndex.API).build();
     }
 
 
     // Helper method to setup tab icons
-    private void setupTabIcons() {
+    private void setupTabs() {
         for (int i = 0; i < Numboftabs; i++) {
             mTabLayout.getTabAt(i).setIcon(tabIconsRes[i]);
         }
+        mTabLayout.getTabAt(0).setIcon(tabSelectedIconsRes[0]);
+        mTabLayout.setSelectedTabIndicatorHeight(8);
+        mTabLayout.setOnTabSelectedListener(new TabLayout.OnTabSelectedListener() {
+            @Override
+            public void onTabSelected(TabLayout.Tab tab) {
+                tab.setIcon(tabSelectedIconsRes[tab.getPosition()]);
+            }
+
+            @Override
+            public void onTabUnselected(TabLayout.Tab tab) {
+                tab.setIcon(tabIconsRes[tab.getPosition()]);
+                return;
+            }
+
+            @Override
+            public void onTabReselected(TabLayout.Tab tab) {
+                return;
+            }
+        });
+
     }
 
     @Override

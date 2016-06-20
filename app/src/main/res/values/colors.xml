@@ -9,4 +9,5 @@
     <color name="color_tab2">#00BCD4</color>
     <color name="color_tab3">#FF9800</color>
     <color name="color_tab4">#8BC34A</color>
+    <color name="color_tab_selected">#FF9800</color>
 </resources>
