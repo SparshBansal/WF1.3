@@ -1,11 +1,11 @@
 [
     {
-        "merged": "/home/sparsh/AndroidStudioProjects/WF1.3/app/build/intermediates/res/merged/debug/layout/abc_search_dropdown_item_icons_2line.xml",
-        "source": "/home/sparsh/AndroidStudioProjects/WF1.3/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.4.0/res/layout/abc_search_dropdown_item_icons_2line.xml"
-    },
-    {
         "merged": "/home/sparsh/AndroidStudioProjects/WF1.3/app/build/intermediates/res/merged/debug/layout/design_navigation_item.xml",
         "source": "/home/sparsh/AndroidStudioProjects/WF1.3/app/build/intermediates/exploded-aar/com.android.support/design/23.4.0/res/layout/design_navigation_item.xml"
+    },
+    {
+        "merged": "/home/sparsh/AndroidStudioProjects/WF1.3/app/build/intermediates/res/merged/debug/layout/abc_search_dropdown_item_icons_2line.xml",
+        "source": "/home/sparsh/AndroidStudioProjects/WF1.3/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.4.0/res/layout/abc_search_dropdown_item_icons_2line.xml"
     },
     {
         "merged": "/home/sparsh/AndroidStudioProjects/WF1.3/app/build/intermediates/res/merged/debug/layout/peoplefollowed.xml",
@@ -38,10 +38,6 @@
     {
         "merged": "/home/sparsh/AndroidStudioProjects/WF1.3/app/build/intermediates/res/merged/debug/layout/content_main.xml",
         "source": "/home/sparsh/AndroidStudioProjects/WF1.3/app/src/main/res/layout/content_main.xml"
-    },
-    {
-        "merged": "/home/sparsh/AndroidStudioProjects/WF1.3/app/build/intermediates/res/merged/debug/layout/custom_tab.xml",
-        "source": "/home/sparsh/AndroidStudioProjects/WF1.3/app/src/main/res/layout/custom_tab.xml"
     },
     {
         "merged": "/home/sparsh/AndroidStudioProjects/WF1.3/app/build/intermediates/res/merged/debug/layout/tool_bar1.xml",

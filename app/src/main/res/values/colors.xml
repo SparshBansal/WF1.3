@@ -3,4 +3,10 @@
     <color name="ColorPrimary">#8BC34A</color>
     <color name="ColorPrimaryDark">#33691E</color>
     <color name="tabsScrollColor">#1B5E20</color>
+
+    <!-- Tabs colors -->
+    <color name="color_tab1">#8BC34A</color>
+    <color name="color_tab2">#00BCD4</color>
+    <color name="color_tab3">#FF9800</color>
+    <color name="color_tab4">#8BC34A</color>
 </resources>
