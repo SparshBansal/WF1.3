@@ -40,10 +40,6 @@
         "source": "/home/sparsh/AndroidStudioProjects/WF1.3/app/src/main/res/layout/content_main.xml"
     },
     {
-        "merged": "/home/sparsh/AndroidStudioProjects/WF1.3/app/build/intermediates/res/merged/debug/layout/custom_tab.xml",
-        "source": "/home/sparsh/AndroidStudioProjects/WF1.3/app/src/main/res/layout/custom_tab.xml"
-    },
-    {
         "merged": "/home/sparsh/AndroidStudioProjects/WF1.3/app/build/intermediates/res/merged/debug/layout/tool_bar1.xml",
         "source": "/home/sparsh/AndroidStudioProjects/WF1.3/app/src/main/res/layout/tool_bar1.xml"
     },
