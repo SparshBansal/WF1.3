@@ -1,10 +1,10 @@
 [
     {
-        "merged": "D:\\Codes and Projects\\WF1.3\\app\\build\\intermediates\\res\\merged\\debug\\menu\\menu_main.xml",
-        "source": "D:\\Codes and Projects\\WF1.3\\app\\src\\main\\res\\menu\\menu_main.xml"
+        "merged": "/home/sparsh/AndroidStudioProjects/WF1.3/app/build/intermediates/res/merged/debug/menu/menu_main.xml",
+        "source": "/home/sparsh/AndroidStudioProjects/WF1.3/app/src/main/res/menu/menu_main.xml"
     },
     {
-        "merged": "D:\\Codes and Projects\\WF1.3\\app\\build\\intermediates\\res\\merged\\debug\\menu\\lower_menu_main.xml",
-        "source": "D:\\Codes and Projects\\WF1.3\\app\\src\\main\\res\\menu\\lower_menu_main.xml"
+        "merged": "/home/sparsh/AndroidStudioProjects/WF1.3/app/build/intermediates/res/merged/debug/menu/lower_menu_main.xml",
+        "source": "/home/sparsh/AndroidStudioProjects/WF1.3/app/src/main/res/menu/lower_menu_main.xml"
     }
 ]

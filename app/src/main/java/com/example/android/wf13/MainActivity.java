@@ -38,6 +38,7 @@ public class MainActivity extends ActionBarActivity {
     int Numboftabs = 4;
     String message = "1";
     /**
+     * 1
      * ATTENTION: This was auto-generated to implement the App Indexing API.
      * See https://g.co/AppIndexing/AndroidStudio for more information.
      */
@@ -147,6 +148,15 @@ public class MainActivity extends ActionBarActivity {
         // See https://g.co/AppIndexing/AndroidStudio for more information.
         client = new GoogleApiClient.Builder(this).addApi(AppIndex.API).build();
     }
+
+
+    // Helper method to setup tab icons
+    private void setupTabIcons() {
+        for (int i = 0; i < Numboftabs; i++) {
+            mTabLayout.getTabAt(i).setIcon(tabIconsRes[i]);
+        }
+    }
+
     @Override
     protected void onActivityResult(int requestCode,int resultCode, Intent intent){
         if (requestCode == 1) {
