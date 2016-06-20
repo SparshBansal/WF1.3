@@ -1,222 +1,222 @@
 [
     {
-        "merged": "D:\\Codes and Projects\\WF1.3\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\article2.png",
-        "source": "D:\\Codes and Projects\\WF1.3\\app\\src\\main\\res\\drawable\\article2.png"
+        "merged": "/home/sparsh/AndroidStudioProjects/WF1.3/app/build/intermediates/res/merged/debug/drawable/abc_textfield_search_material.xml",
+        "source": "/home/sparsh/AndroidStudioProjects/WF1.3/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.4.0/res/drawable/abc_textfield_search_material.xml"
     },
     {
-        "merged": "D:\\Codes and Projects\\WF1.3\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\comments.png",
-        "source": "D:\\Codes and Projects\\WF1.3\\app\\src\\main\\res\\drawable\\comments.png"
+        "merged": "/home/sparsh/AndroidStudioProjects/WF1.3/app/build/intermediates/res/merged/debug/drawable/abc_ratingbar_full_material.xml",
+        "source": "/home/sparsh/AndroidStudioProjects/WF1.3/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.4.0/res/drawable/abc_ratingbar_full_material.xml"
     },
     {
-        "merged": "D:\\Codes and Projects\\WF1.3\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\tokras.png",
-        "source": "D:\\Codes and Projects\\WF1.3\\app\\src\\main\\res\\drawable\\tokras.png"
+        "merged": "/home/sparsh/AndroidStudioProjects/WF1.3/app/build/intermediates/res/merged/debug/drawable/biopic.png",
+        "source": "/home/sparsh/AndroidStudioProjects/WF1.3/app/src/main/res/drawable/biopic.png"
     },
     {
-        "merged": "D:\\Codes and Projects\\WF1.3\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_btn_radio_material.xml",
-        "source": "D:\\Codes and Projects\\WF1.3\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\drawable\\abc_btn_radio_material.xml"
+        "merged": "/home/sparsh/AndroidStudioProjects/WF1.3/app/build/intermediates/res/merged/debug/drawable/abc_item_background_holo_dark.xml",
+        "source": "/home/sparsh/AndroidStudioProjects/WF1.3/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.4.0/res/drawable/abc_item_background_holo_dark.xml"
     },
     {
-        "merged": "D:\\Codes and Projects\\WF1.3\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_item_background_holo_light.xml",
-        "source": "D:\\Codes and Projects\\WF1.3\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\drawable\\abc_item_background_holo_light.xml"
+        "merged": "/home/sparsh/AndroidStudioProjects/WF1.3/app/build/intermediates/res/merged/debug/drawable/snigu.jpg",
+        "source": "/home/sparsh/AndroidStudioProjects/WF1.3/app/src/main/res/drawable/snigu.jpg"
     },
     {
-        "merged": "D:\\Codes and Projects\\WF1.3\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_dialog_material_background_dark.xml",
-        "source": "D:\\Codes and Projects\\WF1.3\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\drawable\\abc_dialog_material_background_dark.xml"
+        "merged": "/home/sparsh/AndroidStudioProjects/WF1.3/app/build/intermediates/res/merged/debug/drawable/abc_tab_indicator_material.xml",
+        "source": "/home/sparsh/AndroidStudioProjects/WF1.3/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.4.0/res/drawable/abc_tab_indicator_material.xml"
     },
     {
-        "merged": "D:\\Codes and Projects\\WF1.3\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\rose.PNG",
-        "source": "D:\\Codes and Projects\\WF1.3\\app\\src\\main\\res\\drawable\\rose.PNG"
+        "merged": "/home/sparsh/AndroidStudioProjects/WF1.3/app/build/intermediates/res/merged/debug/drawable/rose4.PNG",
+        "source": "/home/sparsh/AndroidStudioProjects/WF1.3/app/src/main/res/drawable/rose4.PNG"
     },
     {
-        "merged": "D:\\Codes and Projects\\WF1.3\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\images.png",
-        "source": "D:\\Codes and Projects\\WF1.3\\app\\src\\main\\res\\drawable\\images.png"
+        "merged": "/home/sparsh/AndroidStudioProjects/WF1.3/app/build/intermediates/res/merged/debug/drawable/rose.PNG",
+        "source": "/home/sparsh/AndroidStudioProjects/WF1.3/app/src/main/res/drawable/rose.PNG"
     },
     {
-        "merged": "D:\\Codes and Projects\\WF1.3\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\rose4.PNG",
-        "source": "D:\\Codes and Projects\\WF1.3\\app\\src\\main\\res\\drawable\\rose4.PNG"
+        "merged": "/home/sparsh/AndroidStudioProjects/WF1.3/app/build/intermediates/res/merged/debug/drawable/abc_ratingbar_indicator_material.xml",
+        "source": "/home/sparsh/AndroidStudioProjects/WF1.3/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.4.0/res/drawable/abc_ratingbar_indicator_material.xml"
     },
     {
-        "merged": "D:\\Codes and Projects\\WF1.3\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\logo.png",
-        "source": "D:\\Codes and Projects\\WF1.3\\app\\src\\main\\res\\drawable\\logo.png"
+        "merged": "/home/sparsh/AndroidStudioProjects/WF1.3/app/build/intermediates/res/merged/debug/drawable/abc_seekbar_track_material.xml",
+        "source": "/home/sparsh/AndroidStudioProjects/WF1.3/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.4.0/res/drawable/abc_seekbar_track_material.xml"
     },
     {
-        "merged": "D:\\Codes and Projects\\WF1.3\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_seekbar_track_material.xml",
-        "source": "D:\\Codes and Projects\\WF1.3\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\drawable\\abc_seekbar_track_material.xml"
+        "merged": "/home/sparsh/AndroidStudioProjects/WF1.3/app/build/intermediates/res/merged/debug/drawable/first_tab_drawable.xml",
+        "source": "/home/sparsh/AndroidStudioProjects/WF1.3/app/src/main/res/drawable/first_tab_drawable.xml"
     },
     {
-        "merged": "D:\\Codes and Projects\\WF1.3\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\design_snackbar_background.xml",
-        "source": "D:\\Codes and Projects\\WF1.3\\app\\build\\intermediates\\exploded-aar\\com.android.support\\design\\23.4.0\\res\\drawable\\design_snackbar_background.xml"
+        "merged": "/home/sparsh/AndroidStudioProjects/WF1.3/app/build/intermediates/res/merged/debug/drawable/border.xml",
+        "source": "/home/sparsh/AndroidStudioProjects/WF1.3/app/src/main/res/drawable/border.xml"
     },
     {
-        "merged": "D:\\Codes and Projects\\WF1.3\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_list_selector_background_transition_holo_light.xml",
-        "source": "D:\\Codes and Projects\\WF1.3\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\drawable\\abc_list_selector_background_transition_holo_light.xml"
+        "merged": "/home/sparsh/AndroidStudioProjects/WF1.3/app/build/intermediates/res/merged/debug/drawable/abc_item_background_holo_light.xml",
+        "source": "/home/sparsh/AndroidStudioProjects/WF1.3/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.4.0/res/drawable/abc_item_background_holo_light.xml"
     },
     {
-        "merged": "D:\\Codes and Projects\\WF1.3\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\peoplefollowed.png",
-        "source": "D:\\Codes and Projects\\WF1.3\\app\\src\\main\\res\\drawable\\peoplefollowed.png"
+        "merged": "/home/sparsh/AndroidStudioProjects/WF1.3/app/build/intermediates/res/merged/debug/drawable/rose3.PNG",
+        "source": "/home/sparsh/AndroidStudioProjects/WF1.3/app/src/main/res/drawable/rose3.PNG"
     },
     {
-        "merged": "D:\\Codes and Projects\\WF1.3\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ratingbar_small_material.xml",
-        "source": "D:\\Codes and Projects\\WF1.3\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\drawable\\abc_ratingbar_small_material.xml"
+        "merged": "/home/sparsh/AndroidStudioProjects/WF1.3/app/build/intermediates/res/merged/debug/drawable/abc_btn_borderless_material.xml",
+        "source": "/home/sparsh/AndroidStudioProjects/WF1.3/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.4.0/res/drawable/abc_btn_borderless_material.xml"
     },
     {
-        "merged": "D:\\Codes and Projects\\WF1.3\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_btn_default_mtrl_shape.xml",
-        "source": "D:\\Codes and Projects\\WF1.3\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\drawable\\abc_btn_default_mtrl_shape.xml"
+        "merged": "/home/sparsh/AndroidStudioProjects/WF1.3/app/build/intermediates/res/merged/debug/drawable/abc_cab_background_top_material.xml",
+        "source": "/home/sparsh/AndroidStudioProjects/WF1.3/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.4.0/res/drawable/abc_cab_background_top_material.xml"
     },
     {
-        "merged": "D:\\Codes and Projects\\WF1.3\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\searchi.png",
-        "source": "D:\\Codes and Projects\\WF1.3\\app\\src\\main\\res\\drawable\\searchi.png"
+        "merged": "/home/sparsh/AndroidStudioProjects/WF1.3/app/build/intermediates/res/merged/debug/drawable/abc_spinner_textfield_background_material.xml",
+        "source": "/home/sparsh/AndroidStudioProjects/WF1.3/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.4.0/res/drawable/abc_spinner_textfield_background_material.xml"
     },
     {
-        "merged": "D:\\Codes and Projects\\WF1.3\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\second_tab_drawable.xml",
-        "source": "D:\\Codes and Projects\\WF1.3\\app\\src\\main\\res\\drawable\\second_tab_drawable.xml"
+        "merged": "/home/sparsh/AndroidStudioProjects/WF1.3/app/build/intermediates/res/merged/debug/drawable/abc_btn_colored_material.xml",
+        "source": "/home/sparsh/AndroidStudioProjects/WF1.3/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.4.0/res/drawable/abc_btn_colored_material.xml"
     },
     {
-        "merged": "D:\\Codes and Projects\\WF1.3\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_btn_borderless_material.xml",
-        "source": "D:\\Codes and Projects\\WF1.3\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\drawable\\abc_btn_borderless_material.xml"
+        "merged": "/home/sparsh/AndroidStudioProjects/WF1.3/app/build/intermediates/res/merged/debug/drawable/mybio.png",
+        "source": "/home/sparsh/AndroidStudioProjects/WF1.3/app/src/main/res/drawable/mybio.png"
     },
     {
-        "merged": "D:\\Codes and Projects\\WF1.3\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ratingbar_full_material.xml",
-        "source": "D:\\Codes and Projects\\WF1.3\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\drawable\\abc_ratingbar_full_material.xml"
+        "merged": "/home/sparsh/AndroidStudioProjects/WF1.3/app/build/intermediates/res/merged/debug/drawable/images.png",
+        "source": "/home/sparsh/AndroidStudioProjects/WF1.3/app/src/main/res/drawable/images.png"
     },
     {
-        "merged": "D:\\Codes and Projects\\WF1.3\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\like.png",
-        "source": "D:\\Codes and Projects\\WF1.3\\app\\src\\main\\res\\drawable\\like.png"
+        "merged": "/home/sparsh/AndroidStudioProjects/WF1.3/app/build/intermediates/res/merged/debug/drawable/design_snackbar_background.xml",
+        "source": "/home/sparsh/AndroidStudioProjects/WF1.3/app/build/intermediates/exploded-aar/com.android.support/design/23.4.0/res/drawable/design_snackbar_background.xml"
     },
     {
-        "merged": "D:\\Codes and Projects\\WF1.3\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_switch_thumb_material.xml",
-        "source": "D:\\Codes and Projects\\WF1.3\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\drawable\\abc_switch_thumb_material.xml"
+        "merged": "/home/sparsh/AndroidStudioProjects/WF1.3/app/build/intermediates/res/merged/debug/drawable/abc_btn_default_mtrl_shape.xml",
+        "source": "/home/sparsh/AndroidStudioProjects/WF1.3/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.4.0/res/drawable/abc_btn_default_mtrl_shape.xml"
     },
     {
-        "merged": "D:\\Codes and Projects\\WF1.3\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_tab_indicator_material.xml",
-        "source": "D:\\Codes and Projects\\WF1.3\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\drawable\\abc_tab_indicator_material.xml"
+        "merged": "/home/sparsh/AndroidStudioProjects/WF1.3/app/build/intermediates/res/merged/debug/drawable/abc_ratingbar_small_material.xml",
+        "source": "/home/sparsh/AndroidStudioProjects/WF1.3/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.4.0/res/drawable/abc_ratingbar_small_material.xml"
     },
     {
-        "merged": "D:\\Codes and Projects\\WF1.3\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_item_background_holo_dark.xml",
-        "source": "D:\\Codes and Projects\\WF1.3\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\drawable\\abc_item_background_holo_dark.xml"
+        "merged": "/home/sparsh/AndroidStudioProjects/WF1.3/app/build/intermediates/res/merged/debug/drawable/search.png",
+        "source": "/home/sparsh/AndroidStudioProjects/WF1.3/app/src/main/res/drawable/search.png"
     },
     {
-        "merged": "D:\\Codes and Projects\\WF1.3\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\rose3.PNG",
-        "source": "D:\\Codes and Projects\\WF1.3\\app\\src\\main\\res\\drawable\\rose3.PNG"
+        "merged": "/home/sparsh/AndroidStudioProjects/WF1.3/app/build/intermediates/res/merged/debug/drawable/abc_list_selector_background_transition_holo_dark.xml",
+        "source": "/home/sparsh/AndroidStudioProjects/WF1.3/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.4.0/res/drawable/abc_list_selector_background_transition_holo_dark.xml"
     },
     {
-        "merged": "D:\\Codes and Projects\\WF1.3\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_dialog_material_background_light.xml",
-        "source": "D:\\Codes and Projects\\WF1.3\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\drawable\\abc_dialog_material_background_light.xml"
+        "merged": "/home/sparsh/AndroidStudioProjects/WF1.3/app/build/intermediates/res/merged/debug/drawable/abc_list_selector_holo_light.xml",
+        "source": "/home/sparsh/AndroidStudioProjects/WF1.3/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.4.0/res/drawable/abc_list_selector_holo_light.xml"
     },
     {
-        "merged": "D:\\Codes and Projects\\WF1.3\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\article.PNG",
-        "source": "D:\\Codes and Projects\\WF1.3\\app\\src\\main\\res\\drawable\\article.PNG"
+        "merged": "/home/sparsh/AndroidStudioProjects/WF1.3/app/build/intermediates/res/merged/debug/drawable/abc_list_selector_holo_dark.xml",
+        "source": "/home/sparsh/AndroidStudioProjects/WF1.3/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.4.0/res/drawable/abc_list_selector_holo_dark.xml"
     },
     {
-        "merged": "D:\\Codes and Projects\\WF1.3\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_cab_background_internal_bg.xml",
-        "source": "D:\\Codes and Projects\\WF1.3\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\drawable\\abc_cab_background_internal_bg.xml"
+        "merged": "/home/sparsh/AndroidStudioProjects/WF1.3/app/build/intermediates/res/merged/debug/drawable/comments.png",
+        "source": "/home/sparsh/AndroidStudioProjects/WF1.3/app/src/main/res/drawable/comments.png"
     },
     {
-        "merged": "D:\\Codes and Projects\\WF1.3\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\rose2.PNG",
-        "source": "D:\\Codes and Projects\\WF1.3\\app\\src\\main\\res\\drawable\\rose2.PNG"
+        "merged": "/home/sparsh/AndroidStudioProjects/WF1.3/app/build/intermediates/res/merged/debug/drawable/white.PNG",
+        "source": "/home/sparsh/AndroidStudioProjects/WF1.3/app/src/main/res/drawable/white.PNG"
     },
     {
-        "merged": "D:\\Codes and Projects\\WF1.3\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_edit_text_material.xml",
-        "source": "D:\\Codes and Projects\\WF1.3\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\drawable\\abc_edit_text_material.xml"
+        "merged": "/home/sparsh/AndroidStudioProjects/WF1.3/app/build/intermediates/res/merged/debug/drawable/article2.png",
+        "source": "/home/sparsh/AndroidStudioProjects/WF1.3/app/src/main/res/drawable/article2.png"
     },
     {
-        "merged": "D:\\Codes and Projects\\WF1.3\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\biopic.png",
-        "source": "D:\\Codes and Projects\\WF1.3\\app\\src\\main\\res\\drawable\\biopic.png"
+        "merged": "/home/sparsh/AndroidStudioProjects/WF1.3/app/build/intermediates/res/merged/debug/drawable/notification.png",
+        "source": "/home/sparsh/AndroidStudioProjects/WF1.3/app/src/main/res/drawable/notification.png"
     },
     {
-        "merged": "D:\\Codes and Projects\\WF1.3\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\white.PNG",
-        "source": "D:\\Codes and Projects\\WF1.3\\app\\src\\main\\res\\drawable\\white.PNG"
+        "merged": "/home/sparsh/AndroidStudioProjects/WF1.3/app/build/intermediates/res/merged/debug/drawable/design_fab_background.xml",
+        "source": "/home/sparsh/AndroidStudioProjects/WF1.3/app/build/intermediates/exploded-aar/com.android.support/design/23.4.0/res/drawable/design_fab_background.xml"
     },
     {
-        "merged": "D:\\Codes and Projects\\WF1.3\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\mybio.png",
-        "source": "D:\\Codes and Projects\\WF1.3\\app\\src\\main\\res\\drawable\\mybio.png"
+        "merged": "/home/sparsh/AndroidStudioProjects/WF1.3/app/build/intermediates/res/merged/debug/drawable/abc_seekbar_thumb_material.xml",
+        "source": "/home/sparsh/AndroidStudioProjects/WF1.3/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.4.0/res/drawable/abc_seekbar_thumb_material.xml"
     },
     {
-        "merged": "D:\\Codes and Projects\\WF1.3\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_btn_colored_material.xml",
-        "source": "D:\\Codes and Projects\\WF1.3\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\drawable\\abc_btn_colored_material.xml"
+        "merged": "/home/sparsh/AndroidStudioProjects/WF1.3/app/build/intermediates/res/merged/debug/drawable/second_tab_drawable.xml",
+        "source": "/home/sparsh/AndroidStudioProjects/WF1.3/app/src/main/res/drawable/second_tab_drawable.xml"
     },
     {
-        "merged": "D:\\Codes and Projects\\WF1.3\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\help.png",
-        "source": "D:\\Codes and Projects\\WF1.3\\app\\src\\main\\res\\drawable\\help.png"
+        "merged": "/home/sparsh/AndroidStudioProjects/WF1.3/app/build/intermediates/res/merged/debug/drawable/like.png",
+        "source": "/home/sparsh/AndroidStudioProjects/WF1.3/app/src/main/res/drawable/like.png"
     },
     {
-        "merged": "D:\\Codes and Projects\\WF1.3\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\setting.png",
-        "source": "D:\\Codes and Projects\\WF1.3\\app\\src\\main\\res\\drawable\\setting.png"
+        "merged": "/home/sparsh/AndroidStudioProjects/WF1.3/app/build/intermediates/res/merged/debug/drawable/rose2.PNG",
+        "source": "/home/sparsh/AndroidStudioProjects/WF1.3/app/src/main/res/drawable/rose2.PNG"
     },
     {
-        "merged": "D:\\Codes and Projects\\WF1.3\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_list_selector_background_transition_holo_dark.xml",
-        "source": "D:\\Codes and Projects\\WF1.3\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\drawable\\abc_list_selector_background_transition_holo_dark.xml"
+        "merged": "/home/sparsh/AndroidStudioProjects/WF1.3/app/build/intermediates/res/merged/debug/drawable/abc_list_selector_background_transition_holo_light.xml",
+        "source": "/home/sparsh/AndroidStudioProjects/WF1.3/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.4.0/res/drawable/abc_list_selector_background_transition_holo_light.xml"
     },
     {
-        "merged": "D:\\Codes and Projects\\WF1.3\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_spinner_textfield_background_material.xml",
-        "source": "D:\\Codes and Projects\\WF1.3\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\drawable\\abc_spinner_textfield_background_material.xml"
+        "merged": "/home/sparsh/AndroidStudioProjects/WF1.3/app/build/intermediates/res/merged/debug/drawable/abc_btn_radio_material.xml",
+        "source": "/home/sparsh/AndroidStudioProjects/WF1.3/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.4.0/res/drawable/abc_btn_radio_material.xml"
     },
     {
-        "merged": "D:\\Codes and Projects\\WF1.3\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\design_fab_background.xml",
-        "source": "D:\\Codes and Projects\\WF1.3\\app\\build\\intermediates\\exploded-aar\\com.android.support\\design\\23.4.0\\res\\drawable\\design_fab_background.xml"
+        "merged": "/home/sparsh/AndroidStudioProjects/WF1.3/app/build/intermediates/res/merged/debug/drawable/selctor_button.xml",
+        "source": "/home/sparsh/AndroidStudioProjects/WF1.3/app/src/main/res/drawable/selctor_button.xml"
     },
     {
-        "merged": "D:\\Codes and Projects\\WF1.3\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\first_tab_drawable.xml",
-        "source": "D:\\Codes and Projects\\WF1.3\\app\\src\\main\\res\\drawable\\first_tab_drawable.xml"
+        "merged": "/home/sparsh/AndroidStudioProjects/WF1.3/app/build/intermediates/res/merged/debug/drawable/setting.png",
+        "source": "/home/sparsh/AndroidStudioProjects/WF1.3/app/src/main/res/drawable/setting.png"
     },
     {
-        "merged": "D:\\Codes and Projects\\WF1.3\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\border.xml",
-        "source": "D:\\Codes and Projects\\WF1.3\\app\\src\\main\\res\\drawable\\border.xml"
+        "merged": "/home/sparsh/AndroidStudioProjects/WF1.3/app/build/intermediates/res/merged/debug/drawable/peoplefollowed.png",
+        "source": "/home/sparsh/AndroidStudioProjects/WF1.3/app/src/main/res/drawable/peoplefollowed.png"
     },
     {
-        "merged": "D:\\Codes and Projects\\WF1.3\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\vivek.jpg",
-        "source": "D:\\Codes and Projects\\WF1.3\\app\\src\\main\\res\\drawable\\vivek.jpg"
+        "merged": "/home/sparsh/AndroidStudioProjects/WF1.3/app/build/intermediates/res/merged/debug/drawable/abc_btn_check_material.xml",
+        "source": "/home/sparsh/AndroidStudioProjects/WF1.3/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.4.0/res/drawable/abc_btn_check_material.xml"
     },
     {
-        "merged": "D:\\Codes and Projects\\WF1.3\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_cab_background_top_material.xml",
-        "source": "D:\\Codes and Projects\\WF1.3\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\drawable\\abc_cab_background_top_material.xml"
+        "merged": "/home/sparsh/AndroidStudioProjects/WF1.3/app/build/intermediates/res/merged/debug/drawable/help.png",
+        "source": "/home/sparsh/AndroidStudioProjects/WF1.3/app/src/main/res/drawable/help.png"
     },
     {
-        "merged": "D:\\Codes and Projects\\WF1.3\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\helpi.png",
-        "source": "D:\\Codes and Projects\\WF1.3\\app\\src\\main\\res\\drawable\\helpi.png"
+        "merged": "/home/sparsh/AndroidStudioProjects/WF1.3/app/build/intermediates/res/merged/debug/drawable/abc_switch_thumb_material.xml",
+        "source": "/home/sparsh/AndroidStudioProjects/WF1.3/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.4.0/res/drawable/abc_switch_thumb_material.xml"
     },
     {
-        "merged": "D:\\Codes and Projects\\WF1.3\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\selctor_button.xml",
-        "source": "D:\\Codes and Projects\\WF1.3\\app\\src\\main\\res\\drawable\\selctor_button.xml"
+        "merged": "/home/sparsh/AndroidStudioProjects/WF1.3/app/build/intermediates/res/merged/debug/drawable/logo.png",
+        "source": "/home/sparsh/AndroidStudioProjects/WF1.3/app/src/main/res/drawable/logo.png"
     },
     {
-        "merged": "D:\\Codes and Projects\\WF1.3\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ratingbar_indicator_material.xml",
-        "source": "D:\\Codes and Projects\\WF1.3\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\drawable\\abc_ratingbar_indicator_material.xml"
+        "merged": "/home/sparsh/AndroidStudioProjects/WF1.3/app/build/intermediates/res/merged/debug/drawable/abc_dialog_material_background_light.xml",
+        "source": "/home/sparsh/AndroidStudioProjects/WF1.3/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.4.0/res/drawable/abc_dialog_material_background_light.xml"
     },
     {
-        "merged": "D:\\Codes and Projects\\WF1.3\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\search.png",
-        "source": "D:\\Codes and Projects\\WF1.3\\app\\src\\main\\res\\drawable\\search.png"
+        "merged": "/home/sparsh/AndroidStudioProjects/WF1.3/app/build/intermediates/res/merged/debug/drawable/abc_dialog_material_background_dark.xml",
+        "source": "/home/sparsh/AndroidStudioProjects/WF1.3/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.4.0/res/drawable/abc_dialog_material_background_dark.xml"
     },
     {
-        "merged": "D:\\Codes and Projects\\WF1.3\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_list_selector_holo_light.xml",
-        "source": "D:\\Codes and Projects\\WF1.3\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\drawable\\abc_list_selector_holo_light.xml"
+        "merged": "/home/sparsh/AndroidStudioProjects/WF1.3/app/build/intermediates/res/merged/debug/drawable/searchi.png",
+        "source": "/home/sparsh/AndroidStudioProjects/WF1.3/app/src/main/res/drawable/searchi.png"
     },
     {
-        "merged": "D:\\Codes and Projects\\WF1.3\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\snigu.jpg",
-        "source": "D:\\Codes and Projects\\WF1.3\\app\\src\\main\\res\\drawable\\snigu.jpg"
+        "merged": "/home/sparsh/AndroidStudioProjects/WF1.3/app/build/intermediates/res/merged/debug/drawable/helpi.png",
+        "source": "/home/sparsh/AndroidStudioProjects/WF1.3/app/src/main/res/drawable/helpi.png"
     },
     {
-        "merged": "D:\\Codes and Projects\\WF1.3\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_text_cursor_material.xml",
-        "source": "D:\\Codes and Projects\\WF1.3\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\drawable\\abc_text_cursor_material.xml"
+        "merged": "/home/sparsh/AndroidStudioProjects/WF1.3/app/build/intermediates/res/merged/debug/drawable/abc_cab_background_internal_bg.xml",
+        "source": "/home/sparsh/AndroidStudioProjects/WF1.3/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.4.0/res/drawable/abc_cab_background_internal_bg.xml"
     },
     {
-        "merged": "D:\\Codes and Projects\\WF1.3\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_list_selector_holo_dark.xml",
-        "source": "D:\\Codes and Projects\\WF1.3\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\drawable\\abc_list_selector_holo_dark.xml"
+        "merged": "/home/sparsh/AndroidStudioProjects/WF1.3/app/build/intermediates/res/merged/debug/drawable/article.PNG",
+        "source": "/home/sparsh/AndroidStudioProjects/WF1.3/app/src/main/res/drawable/article.PNG"
     },
     {
-        "merged": "D:\\Codes and Projects\\WF1.3\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_btn_check_material.xml",
-        "source": "D:\\Codes and Projects\\WF1.3\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\drawable\\abc_btn_check_material.xml"
+        "merged": "/home/sparsh/AndroidStudioProjects/WF1.3/app/build/intermediates/res/merged/debug/drawable/tokras.png",
+        "source": "/home/sparsh/AndroidStudioProjects/WF1.3/app/src/main/res/drawable/tokras.png"
     },
     {
-        "merged": "D:\\Codes and Projects\\WF1.3\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\notification.png",
-        "source": "D:\\Codes and Projects\\WF1.3\\app\\src\\main\\res\\drawable\\notification.png"
+        "merged": "/home/sparsh/AndroidStudioProjects/WF1.3/app/build/intermediates/res/merged/debug/drawable/abc_text_cursor_material.xml",
+        "source": "/home/sparsh/AndroidStudioProjects/WF1.3/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.4.0/res/drawable/abc_text_cursor_material.xml"
     },
     {
-        "merged": "D:\\Codes and Projects\\WF1.3\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_seekbar_thumb_material.xml",
-        "source": "D:\\Codes and Projects\\WF1.3\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\drawable\\abc_seekbar_thumb_material.xml"
+        "merged": "/home/sparsh/AndroidStudioProjects/WF1.3/app/build/intermediates/res/merged/debug/drawable/abc_edit_text_material.xml",
+        "source": "/home/sparsh/AndroidStudioProjects/WF1.3/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.4.0/res/drawable/abc_edit_text_material.xml"
     },
     {
-        "merged": "D:\\Codes and Projects\\WF1.3\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_textfield_search_material.xml",
-        "source": "D:\\Codes and Projects\\WF1.3\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\drawable\\abc_textfield_search_material.xml"
+        "merged": "/home/sparsh/AndroidStudioProjects/WF1.3/app/build/intermediates/res/merged/debug/drawable/vivek.jpg",
+        "source": "/home/sparsh/AndroidStudioProjects/WF1.3/app/src/main/res/drawable/vivek.jpg"
     }
 ]
